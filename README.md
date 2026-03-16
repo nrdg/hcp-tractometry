@@ -19,3 +19,10 @@ Phenotypic data can be acquired from HCP. Most of the predictors used in this an
 Local connectome data can be acquired from the data shared as part of [Rasero et al., 2021](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008347), here:  https://figshare.com/s/b97d2d1ba359e6458cb5
 
 Tractometry data can be downloaded from Open Neuro Data, as detailed in Kruper et al., 2024. 
+
+### Reproducibility details​​
+The derivatives were produced using [pyAFQ](https://yeatmanlab.github.io/pyAFQ/) version 0.7.2.dev11163053115, which corresponds to [this commit](https://github.com/yeatmanlab/pyAFQ/tree/b3b88d1f18ef08290f19e62b077ac2b64ee7b10e)
+​
+And [Azure Batch pyAFQ](https://github.com/arokem/azure_batch_pyAFQ/tree/72d8f3f5768b8325dd3fba6b805f86af714af7d3/src)
+​
+Support for this project was provided through grant 1RF1MH121868-01 from the National Institutes for Mental Health/The BRAIN Initiative and through an Azure Cloud Credits grant from Microsoft and the University of Washington eScience Institute.
